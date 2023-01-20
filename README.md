@@ -1,1 +1,1 @@
-# Powershell-by-magenz
+# Powershell by magenz
