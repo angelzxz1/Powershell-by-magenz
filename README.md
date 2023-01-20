@@ -49,9 +49,13 @@ $profileConfig = "$env:USERPROFILE\.config\powershell" #The path to the folder w
 Then create the folder .config\powershell using the variable ```$env:USERPROFILE```
 
 
-mkdir $env:USERPROFILE\.config\powershell and add the items, then you can uncomment the lines and add the path to the projects folder
+```powershell
+mkdir $env:USERPROFILE\.config\powershell
+```
 
-## Terminal Icons
+and add the items, then you can uncomment the lines and add the path to the projects folder
 
-Follow the steps in the <a href='https://github.com/devblackops/Terminal-Icons'>Terminal Icons repository</a>
+## Terminal Icons and Oh My Posh
+
+Follow the steps in the <a href='https://github.com/devblackops/Terminal-Icons'>Terminal Icons repository</a> to install the icons, and the steps in the <a href='https://ohmyposh.dev/docs/windows'>Oh My Posh</a> to install Oh My Posh, then download the <a href='https://github.com/angelzxz1/Oh-My-Posh-theme'>Oh My Posh theme by Magenz</a>
 
