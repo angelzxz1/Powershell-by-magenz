@@ -111,7 +111,7 @@ Then add the following lines
 ```powershell
 Write-Output "Bienvenido XXXX" #A greeting message
 $profileConfig = "$env:USERPROFILE\.config\powershell" #The path to the folder where the configuration files are located
-. $profileConfig\user_profile.ps1 #The file where the user profile is located
+. $profileConfig\magenz.ps1 #The file where the user profile is located
 . $profileConfig\functions.ps1 #The file where the functions are located
 . $profileConfig\aliases.ps1 #The file where the aliases are located
 
