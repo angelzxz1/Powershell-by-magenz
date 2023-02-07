@@ -109,9 +109,9 @@ vim $profile
 Then add the following lines
 
 ```powershell
-Write-Output "Bienvenido XXXX" #A greeting message
+Write-Output "Welcome" #A greeting message
 $profileConfig = "$env:USERPROFILE\.config\powershell" #The path to the folder where the configuration files are located
-. $profileConfig\magenz.ps1 #The file where the user profile is located
+. $profileConfig\magenz.ps1 #The file where the user profile is located, you don't need to name it like this, this is just how I like to name it
 . $profileConfig\functions.ps1 #The file where the functions are located
 . $profileConfig\aliases.ps1 #The file where the aliases are located
 
